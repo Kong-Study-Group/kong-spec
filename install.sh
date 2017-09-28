@@ -7,8 +7,5 @@ sudo rpm -ivh https://kojipkgs.fedoraproject.org//packages/http-parser/2.7.1/3.e
 sudo yum -y install nodejs npm
 sudo yum -y install openssl-devel.x86_64   openssl.x86_64
 
-sudo ntpdate 133.100.11.8 || exit 1
-
-
 npm install --save-dev frisby 
 npm install --save-dev jest
